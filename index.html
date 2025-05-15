@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment03</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>KG ENGINEERING INSTITUTE</h1>
+            <h2>Student Registration Form</h2>
+            <br>
+            <table cellspacing="0" class="table">
+                <tbody>
+                    <tr class="first">
+                        <td class="asked">Student image</td>
+                        <td class="colon">:</td>
+                        <td class="value imgdiv">
+                            <div class="simg">
+                                <input type="file" name="simage" id="simage">
+                            </div>
+                            <div class="sizeText"><p>(less than 5MB)</p></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Student Name</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="text" name="sname" id="sname" class="input" placeholder="Full Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Father's Name</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="text" name="fname" id="fname" class="input" placeholder="Father's Full Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Mother's Name</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="text" name="mname" id="mname" class="input" placeholder="Mother's Full Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Gender</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="transgender" name="gender" value="transgender">
+                            <label for="transgender">Transgender</label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Date of Birth</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="date" name="dob" id="dob" class="input" placeholder="dd-mm-yyyy">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">E-mail</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="email" name="email" id="email" class="input" placeholder="abc@xyz.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Level</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <select name="level" id="level" class="list">
+                                <option value="High_School">High School</option>
+                                <option value="polytechnic">Polytechnic</option>
+                                <option value="B.Tech">B.Tech</option>
+                                <option value="M.Tech">M.Tech</option>
+                                <option value="PHD">PHD</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Department</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <select name="department" id="department" class="list">
+                                <option value="computer">Computer Science & Technology</option>
+                                <option value="electrical">Electrical Engineering</option>
+                                <option value="mechanical">Mechanical Engineering</option>
+                                <option value="electronics">Electronics and Tele-Communication</option>
+                                <option value="civil">Civil Engineering</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Tel/Mobile</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="tel" name="tel" id="tel" class="input" placeholder="XXX XXX XXXX" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><h3>Permanent Address</h3></td>
+                    </tr>
+                    <tr>
+                        <td class="asked">State</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="text" name="state" id="state" class="input" placeholder="State">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">City</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="text" name="city" id="city" class="input" placeholder="City">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Zip Code</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="tel" name="zip" id="zip" class="input" placeholder="Zip Code" maxlength="6">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Tel/Mobile</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="tel" name="tel" id="tel" class="input" placeholder="XXX XXX XXXX" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><h3>Temporary Address</h3></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p>Same as Permanent Address : </p>
+                            <input type="checkbox" name="chkBox" id="chkBox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">State</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="text" name="state" id="state" class="input" placeholder="State">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">City</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="text" name="city" id="city" class="input" placeholder="City">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Zip Code</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="tel" name="zip" id="zip" class="input" placeholder="Zip Code" maxlength="6">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="asked">Tel/Mobile</td>
+                        <td class="colon">:</td>
+                        <td class="value">
+                            <input type="tel" name="tel" id="tel" class="input" placeholder="XXX XXX XXXX" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" width="100%">
+                            <input type="submit" value="Submit" class="btn">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
